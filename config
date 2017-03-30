@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <sustituciones>
+        <nodo_sustitucion buscar="#prv#" sustituir="torredonjimeno"/>
+        <nodo_sustitucion buscar="#cp#" sustituir="25002"/>
+        <nodo_sustitucion buscar="#cty#" sustituir="Palma de Mallorca"/>
+    </sustituciones>
+    <archivos>
+        <!-- hay 10 en total que se usen en la aplicación -->
+        <nodo_archivo nombre="MILLARES.html" uso_archivo="millares"/>
+        <nodo_archivo nombre="CENTENAS.html" uso_archivo="centenas"/>
+        <nodo_archivo nombre="DECENAS.html" uso_archivo="decenas"/>
+        <nodo_archivo nombre="UNIDADES.html" uso_archivo="unidades"/>
+        <nodo_archivo nombre="Pie-prueba.html" uso_archivo="provincias"/>
+        <nodo_archivo nombre="Ciudades-prueba.html" uso_archivo="ciudades"/>
+        <nodo_archivo nombre="titulo" uso_archivo="titulo"/>
+        <nodo_archivo nombre="descripcion" uso_archivo="descripcion"/>
+        <nodo_archivo nombre="palabras_clave" uso_archivo="palabras_clave"/>
+        <nodo_archivo nombre="url" uso_archivo="url"/>
+        <nodo_archivo nombre="CIUDADES Coronafuneral.csv" uso_archivo="automatizacion"/>
+        <!-- uso archivo puede ser: millares, centenas, decenas, unidades, provincias, ciudades, titulo, descripcion, palabras_clave, url, automatizacion -->
+    </archivos>
+    <db>
+        <nodo_db nombre="uri" valor="5.145.170.176"/>
+        <nodo_db nombre="usuario" valor="admin-telerosa"/>
+        <nodo_db nombre="contrasena" valor="1ae2a28le6"/>
+        <nodo_db nombre="db_name" valor="telerosa"/>
+        <nodo_db nombre="db_prefix" valor="telres_"/>
+        <!-- nombre puede ser: uri, usuario, contrasena, ... -->
+    </db>
+</config>
